@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome! Mindi</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <h1>Mindi</h1>
+            <form class="login-form" id="playForm">
+                <input type="text" id="name" placeholder="Name" required/>
+                <input type="email" id="email" placeholder="Email" required/>
+                
+                <div class="message" id="errDiv"></div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+      </div>
+    </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/formHandler.js"></script>    
+</body>
+</html>
